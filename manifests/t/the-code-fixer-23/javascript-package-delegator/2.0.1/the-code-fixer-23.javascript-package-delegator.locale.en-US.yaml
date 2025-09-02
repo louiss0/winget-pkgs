@@ -20,9 +20,15 @@ Tags:
   - bun
 ReleaseNotes: |
   ## Changelog
+  ### Bug Fixes
+  * b6c14aacfd427042db248fd371fad6461abef9cd fix(cmd/run): respect --cwd when reading package.json and deno.json
+  * c237cd671396b079990331ed1741ac1826579e21 fix(test): correct ginkgo syntax error and format code
   ### Tests
   * a14cf42b9bc72e135a94566697690277a45cf824 test(cmd): fix all test structure and import issues
   ### CI/Build
   * 9167fc298fc2b6e2a5636949c6e471c003cd965c build(goreleaser): winget base branch to master
+  ### Others
+  * 390c9d43a7f768441fd8d6e207a5f5a09dff871f Fix Warp Integration Default Directory Installation (#5)
+  * 0211978b16db6f30f71473e94ac46ea5308cc8b8 Refactor: Remove redundant DetectLockfile function and fix interface mismatches
 ManifestType: defaultLocale
 ManifestVersion: 1.10.0
