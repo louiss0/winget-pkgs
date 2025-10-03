@@ -1,4 +1,4 @@
-# Created with YamlCreate.ps1 Dumplings Mod
+# Created with YamlCreate.ps1 v2.5.0 $debug=NVS1.CRLF.7-5-3.Win32NT
 # yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.10.0.schema.json
 
 PackageIdentifier: EasyTier.EasyTier
@@ -45,7 +45,6 @@ ReleaseNotes: |-
   🛠️ 构建与文档
   - Nix Flake 重构 - 重构 Nix Flake 并迁移 Android 支持，提升跨平台构建一致性 @xzzpig #1280
   - README 更新 - 更新中英文 README 中的 QQ 群联系方式，方便社区交流 @KKRainbow #1275 #1274
-ReleaseNotesUrl: https://github.com/EasyTier/EasyTier/releases/tag/v2.4.3
 Documentations:
 - DocumentLabel: 文档
   DocumentUrl: https://easytier.rs/guide/introduction.html
